@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="container">
+    <h2>Mock Interview Dashboard</h2>
+
+    <form action="/start_interview" method="post">
+        <select name="domain" required>
+            <option value="">Select Interview Type</option>
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+            <option value="hr">HR</option>
+        </select>
+        <button type="submit">Start Interview</button>
+    </form>
+
+    <p class="center"><a href="/logout">Logout</a></p>
+</div>
+</body>
+</html>
