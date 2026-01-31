@@ -24,7 +24,7 @@ class InterviewSession(db.Model):
     score = db.Column(db.Integer)
     result = db.Column(db.String(100))
 
-# ------------------ QUESTIONS DB ------------------
+# ------------------ QUESTIONS DB data------------------
 
 QUESTIONS = {
     "python": [
@@ -157,4 +157,5 @@ if __name__ == "__main__":
     with app.app_context():
         db.create_all()
     app.run(debug=True)
+
 
