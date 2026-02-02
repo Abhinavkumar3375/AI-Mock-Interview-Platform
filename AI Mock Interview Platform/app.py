@@ -10,7 +10,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
 
-# ------------------ MODELS data  ------------------hello 
+# ------------------ MODELS data  ------------------hello world 
 
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
