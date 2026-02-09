@@ -25,7 +25,7 @@ class InterviewSession(db.Model):
     result = db.Column(db.String(100))
     timestamp = db.Column(db.DateTime, default=db.func.current_timestamp())
 
-# ------------------ MCQ QUESTIONS DATABASE ------------------
+# ------------------ MCQ QUESTIONS DATABASE ----------
 MCQ_QUESTIONS = {
     "python": [
         {
@@ -574,4 +574,5 @@ if __name__ == "__main__":
     with app.app_context():
         db.create_all()
     app.run(debug=True)
+
 
