@@ -8,7 +8,7 @@ app.secret_key = "secure_mock_ai_key"
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
-# hello every one-------------
+# hello every one-------------=================
 
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -574,6 +574,7 @@ if __name__ == "__main__":
     with app.app_context():
         db.create_all()
     app.run(debug=True)
+
 
 
 
