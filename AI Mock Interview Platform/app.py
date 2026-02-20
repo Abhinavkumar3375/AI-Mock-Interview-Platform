@@ -568,7 +568,7 @@ def logout():
     session.clear()
     return redirect("/")
 
-# ------------------ RUN ------------------
+# ------------------ RUN ---------------------
 if __name__ == "__main__":
     with app.app_context():
         db.create_all()
