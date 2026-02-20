@@ -274,7 +274,7 @@ MCQ_QUESTIONS = {
             "correct": 1
         },
         {
-            "question": "Which SQL clause is used to filter results?",
+            "question": "Which SQL clause is used to filters results?",
             "options": ["FILTER", "WHERE", "HAVING", "WHEN"],
             "correct": 1
         },
